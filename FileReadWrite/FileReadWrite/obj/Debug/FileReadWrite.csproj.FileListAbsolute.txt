@@ -1,0 +1,6 @@
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\bin\Debug\FileReadWrite.dll
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\bin\Debug\FileReadWrite.pdb
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.csprojAssemblyReference.cache
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.csproj.CoreCompileInputs.cache
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.dll
+C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.pdb
