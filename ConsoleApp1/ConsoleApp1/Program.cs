@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FileReadWrite;
+using System.Xml;
 
 namespace ConsoleApp1
 {
@@ -11,11 +12,39 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //3rd: 
-            FileReader.ReadFile();
-            FileReader.WriteToFile();
+            //4th: Adding and updating nodes in XML
+            string strPath = "C:\\Users\\Anuja\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\Sample.xml";
+            XmlDocument doc = new XmlDocument();
+            doc.Load(strPath);
 
-            //2nd:
+            //updating existing node value
+            XmlNode strNode = (XmlElement)doc.SelectSingleNode("/emails/email[2]/from");
+            string s = strNode.InnerText;
+            string val = "Anuja";
+            strNode.InnerText = val;
+
+            //Adding new node and value
+            XmlNodeList strNodes1 = doc.SelectNodes("/emails/email[1]");
+            foreach(XmlNode node in strNodes1)
+            { 
+                
+                XmlElement ele = doc.CreateElement("subject");
+                XmlElement ele2 = (XmlElement)doc.SelectSingleNode("/emails/email[1]/heading");
+                node.InsertAfter(ele, ele2);
+            }
+
+            XmlNodeList strNodes2 = doc.SelectNodes("/emails/email/subject");
+            foreach (XmlNode node in strNodes2)
+            {
+                node.InnerText = "---Adding new subject---";
+            }
+            doc.Save(strPath);
+
+            //3rd: Read write text file
+            //FileReader.ReadFile();
+            //FileReader.WriteToFile();
+
+            //2nd: adding two values
             /*int a = 20;
             int b = 29;
             int total=a+b;
@@ -23,7 +52,7 @@ namespace ConsoleApp1
             Console.Read();
             */
 
-            //1st:
+            //1st: command line argument
             // Console.WriteLine("Hello...My name is Anuja Kumbhare and " + args[0] + " " +args[1]);
             // Console.Read();
         }
