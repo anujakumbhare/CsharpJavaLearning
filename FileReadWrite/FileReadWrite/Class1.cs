@@ -12,7 +12,7 @@ namespace FileReadWrite
         public static void ReadFile()
         {
             String line;
-            StreamReader sr = new StreamReader("C:\\Users\\Anuja\\Desktop\\SampleFile.txt");
+            StreamReader sr = new StreamReader("C:\\Users\\Anuja\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\SampleFile.txt");
             line = sr.ReadLine();
             while (line != null)
             {
@@ -26,10 +26,10 @@ namespace FileReadWrite
 
         public static void WriteToFile()
         {
-            StreamWriter sw = new StreamWriter("C:\\Users\\Anuja\\Desktop\\SampleFile1.txt");
+            StreamWriter sw = new StreamWriter("C:\\Users\\Anuja\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\SampleFile1.txt");
 
              String line;
-             StreamReader sr = new StreamReader("C:\\Users\\Anuja\\Desktop\\SampleFile.txt");
+             StreamReader sr = new StreamReader("C:\\Users\\Anuja\\ConsoleApp\\ConsoleApp1\\ConsoleApp1\\SampleFile.txt");
              line = sr.ReadLine();
              while (line != null)
              {
