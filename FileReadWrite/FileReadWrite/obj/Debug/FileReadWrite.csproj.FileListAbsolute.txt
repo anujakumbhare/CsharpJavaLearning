@@ -4,3 +4,9 @@ C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.
 C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.csproj.CoreCompileInputs.cache
 C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.dll
 C:\Users\Anuja\source\repos\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.pdb
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\bin\Debug\FileReadWrite.dll
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\bin\Debug\FileReadWrite.pdb
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.csprojAssemblyReference.cache
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.csproj.CoreCompileInputs.cache
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.dll
+C:\GIT\CsharpJavaLearning\FileReadWrite\FileReadWrite\obj\Debug\FileReadWrite.pdb
